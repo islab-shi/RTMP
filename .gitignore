@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.so
+
+# Virtual env
+.venv/
+venv/
+
+# Runtime outputs
+auto_defence_imagenet/
+*.pth
+*.pt
+*.pkl
+*.png
+*.jpg
+*.jpeg
+
+# Local datasets (if someone places symlink/folder here)
+data/
+datasets/
+imagenet/
